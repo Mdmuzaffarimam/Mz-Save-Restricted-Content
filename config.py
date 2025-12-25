@@ -31,7 +31,7 @@ ADMINS = int(os.environ.get("ADMINS", "7501925066"))
 CHANNEL_ID = os.environ.get("CHANNEL_ID", "-1002434689255")
 
 # MongoDB
-DB_URI = os.environ.get("DB_URI", "")
+DB_URI = os.environ.get("DB_URI", "mongodb+srv://mohammadmuzaffarimambaturbari:sHXNxpKZ9PDjyYQr@cluster0.dqjjo.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DB_NAME = os.environ.get("DB_NAME", "mohammadmuzaffarimambaturbari")
 
 # ⏩ SPEED CONTROL (MAIN CHANGE)
